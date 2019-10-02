@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.sqlbrite:sqlbrite:1.1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/267d8ca612975b67bdc183c71c804d05/sqlbrite-1.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/267d8ca612975b67bdc183c71c804d05/sqlbrite-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/267d8ca612975b67bdc183c71c804d05/sqlbrite-1.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqlbrite/sqlbrite/1.1.1/fc70bd4ef308a99be65950683ddf96bd62f28502/sqlbrite-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqlbrite/sqlbrite/1.1.1/1ad1738a2512f4c8a1720de76f85221dc37da49e/sqlbrite-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

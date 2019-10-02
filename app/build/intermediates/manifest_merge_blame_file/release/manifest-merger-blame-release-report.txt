@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nsrosell.apps.yousave"
+4    android:versionCode="1"
+5    android:versionName="1.0.00" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:8:5-81
+13-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:9:5-80
+14-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:10:5-68
+15-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:10:22-65
+16
+17    <application
+17-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:12:5-94:19
+18        android:name="com.nsrosell.apps.yousave.TheApplication"
+18-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:13:9-64
+19        android:allowBackup="true"
+19-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\895559d2bf708e950c8f9daa6bb1fb41\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:15:9-43
+22        android:label="@string/app_name"
+22-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:16:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:17:9-54
+24        android:supportsRtl="true"
+24-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:18:9-35
+25        android:theme="@style/AppTheme"
+25-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:19:9-40
+26        android:usesCleartextTraffic="true" >
+26-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:20:9-44
+27        <activity
+27-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:24:9-38:20
+28            android:name="com.nsrosell.apps.yousave.MainActivity"
+28-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:25:13-66
+29            android:launchMode="singleTask"
+29-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:26:13-44
+30            android:screenOrientation="portrait"
+30-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:27:13-49
+31            android:theme="@style/Theme.AppCompat.Light" >
+31-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:28:13-57
+32            <intent-filter>
+32-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:29:13-32:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:30:17-69
+33-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:30:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:31:17-77
+35-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:31:27-74
+36            </intent-filter>
+37            <intent-filter>
+37-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:33:13-37:29
+38                <action android:name="android.intent.action.SEND" />
+38-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:34:17-69
+38-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:34:25-66
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:35:17-76
+40-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:35:27-73
+41
+42                <data android:mimeType="text/plain" />
+42-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:36:17-55
+42-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:36:23-52
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:40:9-43:60
+46            android:name="com.nsrosell.apps.yousave.youtube.HelpActivity"
+46-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:41:13-74
+47            android:screenOrientation="portrait"
+47-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:42:13-49
+48            android:theme="@style/Theme.AppCompat.Light" />
+48-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:43:13-57
+49        <activity
+49-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:45:9-48:56
+50            android:name="com.nsrosell.apps.yousave.youtube.DownloadActivity"
+50-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:46:13-78
+51            android:screenOrientation="portrait"
+51-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:47:13-49
+52            android:theme="@style/DownloaderAppTheme" />
+52-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:48:13-54
+53        <activity
+53-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:50:9-53:54
+54            android:name="com.nsrosell.apps.yousave.youtube.MainActivity"
+54-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:51:13-74
+55            android:screenOrientation="portrait"
+55-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:52:13-49
+56            android:theme="@style/AppThemeYoutube" />
+56-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:53:13-51
+57        <activity
+57-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:55:9-58:60
+58            android:name="com.nsrosell.apps.yousave.instagram.DP_View"
+58-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:56:13-71
+59            android:screenOrientation="portrait"
+59-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:57:13-49
+60            android:theme="@style/Theme.AppCompat.Light" />
+60-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:58:13-57
+61        <activity
+61-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:60:9-63:60
+62            android:name="com.nsrosell.apps.yousave.instagram.HelpActivity"
+62-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:61:13-76
+63            android:screenOrientation="portrait"
+63-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:62:13-49
+64            android:theme="@style/Theme.AppCompat.Light" />
+64-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:63:13-57
+65        <activity
+65-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:65:5-68:66
+66            android:name="com.nsrosell.apps.yousave.IntroActivity"
+66-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:66:13-67
+67            android:screenOrientation="portrait"
+67-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:67:13-49
+68            android:theme="@style/Theme.AppCompat.NoActionBar" />
+68-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:68:13-63
+69        <activity
+69-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:70:9-73:66
+70            android:name="com.nsrosell.apps.yousave.IntroAgainActivity"
+70-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:71:13-72
+71            android:screenOrientation="portrait"
+71-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:72:13-49
+72            android:theme="@style/Theme.AppCompat.NoActionBar" />
+72-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:73:13-63
+73        <activity
+73-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:75:9-78:60
+74            android:name="com.nsrosell.apps.yousave.instagram.MainActivity"
+74-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:76:13-76
+75            android:screenOrientation="portrait"
+75-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:77:13-49
+76            android:theme="@style/Theme.AppCompat.Light" />
+76-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:78:13-57
+77        <activity
+77-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:80:9-83:54
+78            android:name="com.nsrosell.apps.yousave.whatsApp.ui.main.MainActivity"
+78-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:81:13-83
+79            android:screenOrientation="portrait"
+79-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:82:13-49
+80            android:theme="@style/AppThemeWhatsApp" />
+80-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:83:13-52
+81        <activity
+81-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:85:9-88:55
+82            android:name="com.nsrosell.apps.yousave.whatsApp.ui.imageslider.ImageSliderActivity"
+82-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:86:13-97
+83            android:screenOrientation="portrait"
+83-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:87:13-49
+84            android:theme="@style/AppThemeWhatsApp" />
+84-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:88:13-52
+85        <activity
+85-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:90:9-92:72
+86            android:name="com.nsrosell.apps.yousave.About"
+86-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:91:13-59
+87            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+87-->D:\selling\Media Toolbox\app\src\main\AndroidManifest.xml:92:13-69
+88        <activity
+88-->[com.karumi:dexter:4.2.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e78a4d80f01e6e86e01908ab46770214\dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+89            android:name="com.karumi.dexter.DexterActivity"
+89-->[com.karumi:dexter:4.2.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e78a4d80f01e6e86e01908ab46770214\dexter-4.2.0\AndroidManifest.xml:28:13-60
+90            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+90-->[com.karumi:dexter:4.2.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\e78a4d80f01e6e86e01908ab46770214\dexter-4.2.0\AndroidManifest.xml:29:13-69
+91
+92        <provider
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\21f20da300f0bb965f3f417e794d7655\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+93            android:name="com.squareup.picasso.PicassoProvider"
+93-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\21f20da300f0bb965f3f417e794d7655\picasso-2.71828\AndroidManifest.xml:9:13-64
+94            android:authorities="com.nsrosell.apps.yousave.com.squareup.picasso"
+94-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\21f20da300f0bb965f3f417e794d7655\picasso-2.71828\AndroidManifest.xml:10:13-72
+95            android:exported="false" />
+95-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\21f20da300f0bb965f3f417e794d7655\picasso-2.71828\AndroidManifest.xml:11:13-37
+96    </application>
+97
+98</manifest>

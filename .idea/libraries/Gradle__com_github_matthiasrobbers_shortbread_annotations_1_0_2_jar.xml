@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.matthiasrobbers:shortbread-annotations:1.0.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.matthiasrobbers/shortbread-annotations/1.0.2/5f58d1abe3454bd61a08df69ba0a5e64f40acfbc/shortbread-annotations-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.matthiasrobbers/shortbread-annotations/1.0.2/224148836fe2a3c413038138339e3c1e17603945/shortbread-annotations-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.matthiasrobbers/shortbread-annotations/1.0.2/fb10bcdead964d687ba61d0ab407abe995cfb94a/shortbread-annotations-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

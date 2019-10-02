@@ -1,0 +1,4 @@
+#Wed Oct 02 03:04:28 GMT 2019
+base.0=D\:\\selling\\Media Toolbox\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

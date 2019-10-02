@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">YouSave</string>
+    <string name="username">\@username</string>
+
+    <string name="sub_title_whatsapp">For WhatsApp</string>
+    <string name="sub_title_insta">For Instagram</string>
+    <string name="sub_title_youtube">For Youtube</string>
+
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="no_images_saved">No status saved</string>
+    <string name="no_images_recent">No recent status images found</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="msg_alert_delete_item_confirm">Item will be removed from saved list. Are you sure?</string>
+    <string name="title_delete_confirm_dialog">Confirm</string>
+    <string name="share">Share</string>
+    <string name="repost">Repost</string>
+    <string name="createdby">Created by \'Enter your name here\'</string>
+    <string name="version_name">v 1.0.0</string>
+
+
+</resources>
