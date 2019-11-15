@@ -23,7 +23,4 @@ This whole project is maintained only by **Samuel Annin(me)**.<br>
 If you like to contribute, please let me know
 <B>Email : saytoonz05@gmail.com</B>
 
-## If you like this project please consider donating
-By donating you help me to improve this project to next level and also buy me some coffee :)
-
-Amsavarthan Lv (me) 👍
+👍 Amsavarthan Lv (me)
