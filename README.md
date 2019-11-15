@@ -1,6 +1,6 @@
 # YouSave
 
-<img src="https://github.com/saytoonz/YouSave/blob/master/app/src/main/ic_launcher-web.png" height="200" width="200">
+<img src="https://github.com/saytoonz/YouSave/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" height="200" width="200">
 
 
 ## Available Features
